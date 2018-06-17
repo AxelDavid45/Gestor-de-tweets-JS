@@ -49,11 +49,21 @@ p {
     width: 100%;
     min-width: 100%;
     max-width: 100%;
-    min-height: 100px;
-    max-height: 100px;
+    min-height: 50px;
+    max-height: 50px;
 }
 
 .Tarea {
     color:#fff;
     font-size: 1.3em;
 }
+
+/* Clases para los mensajes de js */
+
+.ContenedorMensaje {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.Agregado {background: #affc41;}
+.Eliminado {background: #f25a4a; color:#fff;}
